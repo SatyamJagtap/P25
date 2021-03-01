@@ -28,7 +28,7 @@ function setup() {
 }
 function draw() {
   rectMode(CENTER);
-  background(0);
+  background("white");
   ground.display();
   block1.display();
   block2.display();
