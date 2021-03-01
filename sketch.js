@@ -34,12 +34,12 @@ function draw() {
   block2.display();
   block3.display();
   ball1.display(); 
-    keyPressed();
+    //keyPressed();
   drawSprites();
 }
 function keyPressed(){
   if (keyCode === UP_ARROW){
-    Matter.Body.applyForce(ball1.body,ball1.body.position,{x:5,y:-20});
+    Matter.Body.applyForce(ball1.body,ball1.body.position,{x:85,y:-185});
   }
 }
 
