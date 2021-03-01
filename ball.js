@@ -22,10 +22,10 @@ class Ball {
       push()
       translate(pos.x,pos.y);
       rotate(this.body.angle);
-      fill("pink");
+      fill("white");
       circle(0,0,this.radius);
       imageMode(RADIUS)
-      image(this.image,0,0,this.radius);
+      image(this.image,-40,-40,75,75);
       pop();
     }
   };
